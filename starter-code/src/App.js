@@ -1,30 +1,12 @@
-<<<<<<< HEAD
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Country from './components/Country'
-import CountryDetails from './components/CountryDetail';
-import { Route, Switch } from 'react-router-dom';
-=======
 import React from "react";
 import "./App.css";
 import countries from "./countries.json";
 import CountryDetail from "./CountryDetail";
 import { Link, Switch, Route } from 'react-router-dom'
->>>>>>> e9191a9c2b74f48e516f2236ee922483e389e695
 
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
-
-      <Switch>
-        <Route exact path="/" component={Country} />
-        <Route exact path="/:id" component={CountryDetails} />
-        <Route component={Error} />
-      </Switch>
-
-=======
       <nav className="navbar navbar-dark bg-primary mb-3">
         <div className="container">
           <a className="navbar-brand" href="/">
@@ -54,7 +36,6 @@ function App() {
           </Switch>
         </div>
       </div>
->>>>>>> e9191a9c2b74f48e516f2236ee922483e389e695
     </div>
   );
 }
